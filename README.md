@@ -39,3 +39,5 @@ $(aws ecr get-login  --region eu-west-1 --no-include-email)
 docker tag content-base-recommender:latest 477557400504.dkr.ecr.eu-west-1.amazonaws.com/ecs-recommender-system/home:latest
 
 docker push 477557400504.dkr.ecr.eu-west-1.amazonaws.com/ecs-recommender-system/home:latest
+
+thanks
